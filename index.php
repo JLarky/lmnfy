@@ -9,7 +9,7 @@
   </style>
   <script charset="utf-8" type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js"></script>
   <script src="/bundle.js" type='text/javascript'></script>
-  <link href='/lmnfy.xml' rel='search' title='Let Me Nigma For You' type='application/opensearchdescription+xml' />
+  <link href='/lmnfy.xml.php<?php echo (isset($_REQUEST['ui']) ? "?ui=".trim($_REQUEST['ui'],"/") : ""); ?>' rel='search' title='Let Me Nigma For You<?php echo (isset($_REQUEST['ui']) ? " (".trim($_REQUEST['ui'],"/").")" : ""); ?>' type='application/opensearchdescription+xml' />
 </head>
 <body>
 <div style="margin:0px;width:100%;height:100%;position:absolute;">
