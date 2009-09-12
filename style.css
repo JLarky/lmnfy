@@ -80,7 +80,7 @@ top : 1em;
 #fake_mouse {
 position : absolute;
 top : 100px;
-left : 100px;
+left : 150px;
 }
 #link_buttons, #link_message {
 position : absolute;
