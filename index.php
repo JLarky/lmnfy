@@ -5,11 +5,11 @@
   <title>Давай я поищу через nigma.ru для тебя (Let Me Nigma.ru For You)!</title>
   <meta http-equiv="content-type" content="text/html;charset=utf-8" />
   <style type="text/css" media="all">
-    @import "style.css";
+    @import "/style.css";
   </style>
   <script charset="utf-8" type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js"></script>
-  <script src="bundle.js" type='text/javascript'></script>
-  <link href='lmnfy.xml' rel='search' title='LMNFY' type='application/opensearchdescription+xml' />
+  <script src="/bundle.js" type='text/javascript'></script>
+  <link href='/lmnfy.xml' rel='search' title='Let Me Nigma For You' type='application/opensearchdescription+xml' />
 </head>
 <body>
 <div style="margin:0px;width:100%;height:100%;position:absolute;">
@@ -41,6 +41,7 @@
 </td></tr>
 <tr><td>
 <form action="#">
+<input id="ui" type="hidden" value="<?php echo trim($_REQUEST['ui'],"/"); ?>"/>
 <table style="margin-top: 1px;"><tr>
 <td style="width:100%">
  <input id="query" class="searchform" size="100" maxlength="250" name="s" value="" type="text"/>
@@ -105,7 +106,7 @@
     </div>
 <div id="copyright">&copy; 2009 <a href="http://juick.com/JLarky/">JLarky</a></div>
 </div>
-<div><img style="display:none" src="images/mouse_arrow.png" id="fake_mouse" alt="x" width="15px" height="21px"/></div>
+<div><img style="display:none" src="/images/mouse_arrow.png" id="fake_mouse" alt="x" width="15px" height="21px"/></div>
 <script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
 document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));

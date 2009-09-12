@@ -38,7 +38,7 @@ margin-top : 35px;
 font-size : 1.1em;
 color : #999;
 height : 84px;
-background : transparent url(images/instructions_bg_g.png) no-repeat top center;
+background : transparent url(/images/instructions_bg_g.png) no-repeat top center;
 }
 #instructions div {
 line-height : 84px;
@@ -93,7 +93,7 @@ width : 60px;
 height : 20px;
 margin : 0 2px;
 padding : 5px 0;
-background : transparent url(images/link_button.png) no-repeat center center;
+background : transparent url(/images/link_button.png) no-repeat center center;
 color : #fff;
 line-height : 20px;
 text-align : center;
@@ -101,13 +101,13 @@ font-size : 0.8em;
 text-decoration : none;
 }
 a.link_button:hover {
-background-image : url(images/link_button_hover.png);
+background-image : url(/images/link_button_hover.png);
 }
 #link_message {
 z-index : 99;
 width : 332px;
 height : 32px;
-background : url(images/link_message.png);
+background : url(/images/link_message.png);
 color : #fff;
 line-height : 32px;
 text-align : center;
@@ -134,13 +134,13 @@ list-style-type:none;
 }
 
 .search_type_active {
-background:#009933 url(images/coner_small_r.gif) no-repeat scroll right top;
+background:#009933 url(/images/coner_small_r.gif) no-repeat scroll right top;
 color:#FFFFFF;
 margin-right:4px;
 padding:1px 5px 0;
 }
 .search_type_passive {
-background:#EFEFEF url(images/coner_small_r.gif) no-repeat scroll right top;
+background:#EFEFEF url(/images/coner_small_r.gif) no-repeat scroll right top;
 margin-right:4px;
 padding:1px 5px 0;
 }

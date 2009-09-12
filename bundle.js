@@ -472,7 +472,9 @@ $(function(){
 
     function redirect(){
       var type= gettype();
-      var ui="257";
+      var def_ui="257";
+      var ui=$("#ui").val();
+      if (!ui) ui=def_ui;
 
       var loc = "http://www.nigma.ru/index.php?ui="+ui+"&t="+type+"&q=";
       var loc = loc + gentlyEncode(searchString); 
