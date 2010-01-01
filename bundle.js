@@ -302,10 +302,15 @@ $(function(){
       window.location = url;
     });
 
-    $("#types a").click(function() {
-      $("#types span").removeClass("search_type_active").addClass("search_type_passive");
+    $("#search_types a").click(function() {
+      $("#search_types span").removeClass("search_type_active").addClass("search_type_passive");
       $(this).parent().removeClass("search_type_passive").addClass("search_type_active");
       if (inputField.val()) if (!searchString) button.click();
+    });
+    $("#query_examples a").click(function() {
+	    $("#query").attr("value",$(this).text());
+	    if (inputField.val()) if (!searchString) button.click();
+	    console.log($(this).text())
     });
   }
 
@@ -382,7 +387,8 @@ $(function(){
     instruct("setup.type_question");
     inputField.focus().select();
 
-    $("input[type=button]").click(function(e){
+    //    $("input[type=button]")
+    $("#find").click(function(e){
       instruct("setup.share_link");
 
       var l   = window.location;

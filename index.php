@@ -2,10 +2,11 @@
 	  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html lang="ru" dir="ltr" xml:lang="ru" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>Давай я поищу через nigma.ru для тебя (Let Me Nigma.ru For You)!</title>
+  <title>Давай я поищу через nigma.ru для тебя (Let Me Nigma.ru For You)</title>
   <meta http-equiv="content-type" content="text/html;charset=utf-8" />
   <style type="text/css" media="all">
     @import "/style.css";
+    @import "/main_style.css";
   </style>
   <script charset="utf-8" type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js"></script>
   <script src="/bundle.js" type='text/javascript'></script>
@@ -13,51 +14,91 @@
 </head>
 <body>
 <div style="margin:0px;width:100%;height:100%;position:absolute;">
-<span class="about">
- <a style="color: rgb(0, 0, 0);" name="about" href="#">В чём прикол?</a>
-</span>
-<div style="height:50%;min-height:200px;"></div>
+<div style="height:40%;min-height:200px;"></div>
 <div style="margin:auto;width:100%;text-align:center;margin-top:-180px;">
 <div>
 <div class="logo">
 <span>Давай я поищу через</span>
-<img id="logo" src="http://www.nigma.ru/themes/nigma/img/logos/nigma-logo.png" alt="nigma.ru" height="82px" width="260px" />
+<img id="logo" src="http://nigma.ru/themes/nigma/img/logos/logo_main.png" alt="nigma.ru" height="75px" width="281px" />
 <span>для тебя</span>
 </div>
 
-<table style="border-collapse:collapse;margin:auto;width:50%;">
-<tr id="types"><td>
-<table width="100%" style="border-collapse:collapse;"><tbody><tr>
-<td id="srchTypes" style="padding-top: 2px;" class="green_line">
-<table style="border-collapse:collapse;"><tbody><tr>
-<td><span class="search_type_active"><a id="web" href="#web">Интернет</a></span></td>
-<td><span class="search_type_passive"><a id="img" href="#img">Картинки</a></span></td>
-<td><span class="search_type_passive"><a id="lib" href="#lib">Библиотеки</a></span></td>
-<td><span class="search_type_passive"><a id="music" href="#music">Музыка</a></span></td>
-</tr></tbody></table>
-</td>
-<td></td>
-</tr></tbody></table>
-</td></tr>
-<tr><td>
-<form action="#">
+<table style="margin:-40px auto;">
+<tbody><tr><td align="center" style="padding: 3em 0pt 2em; width: 62em;">
+<form action="#" onsubmit="return false;">
+<div>
 <input id="ui" type="hidden" value="<?php echo trim($_REQUEST['ui'],"/"); ?>"/>
-<table style="margin-top: 1px;"><tr>
-<td style="width:100%">
- <input id="query" class="searchform" size="100" maxlength="250" name="s" value="" type="text"/>
+<table id="search_inserts"><tbody><tr>
+<td id="search_types">
+<span class="search_type_active"><a id="web" href="#web">Интернет</a></span>
+<span class="search_type_passive"><a id="img" href="#img">Картинки</a></span>
+<span class="search_type_passive"><a id="lib" href="#lib">Библиотеки</a></span>
+<span class="search_type_passive"><a id="music" href="#music">Музыка</a></span>
+
+
 </td>
-<td style="padding-left:7px;">
- <input type="button" class="searchform-btn" value="Найти!" id="find"/>
+<td id="help">
+<a class="orange" name="about">В чём прикол</a>
 </td>
-</tr></table>
+<td>
+<a class="help_icon" name="about"> </a>
+</td>
+</tr></tbody></table>
+</div>
+
+<div id="search_form_a"><div id="search_form_b"><div id="search_form_c"><div id="search_form_d">
+
+<table id="search_form">
+<tbody><tr>
+<td id="query_field">
+<input type="text" tabindex="1" value="" name="q" maxlength="250" class="text" id="query"/>
+</td>
+<td>
+<input type="submit" tabindex="2" class="button" value="Найти!" id="find"/>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td id="ext_search"/>
+<td/>
+</tr>
+</tbody></table>
+
+
+<div id="search_options">
+</div>
+
+</div><span id="search_form_d_ie"/></div></div></div>
+
+
+<div id="query_examples">
+<table><tbody><tr>
+<td><b>Примеры:</b></td>
+<td>
+<a>CH3COOH</a>
+</td><td>
+<a>так просто</a>
+</td><td>
+<a>x2-3x+2=0</a>
+</td>
+</tr></tbody></table>
+</div>
+
 </form>
+
+<script type="text/javascript"><!--
+document.getElementById("query").focus();
+--></script>
 </td></tr>
-</table>
+</tbody></table>
 
 <div id="instructions">
     <div>Необходимо включить JavaScript</div>
 </div>
-<!--[if lt IE 7]>
+<!--[if lt IE 8]>
   <div style='border: 1px solid #F7941D; background: #FEEFDA; text-align: center; clear: both; height: 75px; position: relative;width:666px;margin:10px auto;'>
     <div style='position: absolute; right: 3px; top: 3px; font-family: courier new; font-weight: bold;'><a href='#' onclick='javascript:this.parentNode.parentNode.style.display="none"; return false;'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-cornerx.jpg' style='border: none;' alt='Close this notice'/></a></div>
     <div style='width: 640px; margin: 0 auto; text-align: left; padding: 0; overflow: hidden; color: black;'>
@@ -104,7 +145,7 @@
 </ul>
       <p>Сайтик сделан по мотивам <a href="http://lmgtfy.com/">LetMeGoogleThatForYou.com</a> и с использованием их кода. Однако уже сейчас функциональность заметно <acronym title="хотя по правде сказать я вырезал функционал локализации и рекламы">выше</acronym>, особенно это оценят пользователи Firefox, т.к. они могут использовать плагин быстрого поиска.</p>
     </div>
-<div id="copyright">&copy; 2009 <a href="http://juick.com/JLarky/">JLarky</a></div>
+<div id="copyright">&copy; 2009-2010 <a href="http://juick.com/JLarky/">JLarky</a></div>
 </div>
 <div><img style="display:none" src="/images/mouse_arrow.png" id="fake_mouse" alt="x" width="15px" height="21px"/></div>
 <script type="text/javascript">

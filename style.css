@@ -15,7 +15,7 @@ margin : 0;
 vertical-align : middle;
 width : 100%;
 }
-.searchform-btn {
+.searchform-btn1111 {
 -x-system-font:none;
 font-family:Arial,Verdana,sans-serif;
 font-size:12px;
@@ -133,17 +133,10 @@ width:800px;
 list-style-type:none;
 }
 
-.search_type_active {
-background:#009933 url(/images/coner_small_r.gif) no-repeat scroll right top;
-color:#FFFFFF;
-margin-right:4px;
-padding:1px 5px 0;
+#search_options{
+  height:18px;
 }
-.search_type_passive {
-background:#EFEFEF url(/images/coner_small_r.gif) no-repeat scroll right top;
-margin-right:4px;
-padding:1px 5px 0;
-}
+
 .green_line {
 border-bottom:3px solid #009933;
 }
@@ -167,12 +160,11 @@ padding:0;
 }
 
 .search_type_passive a, .search_type_passive a:link, .search_type_passive a:visited {
-color:#143CA0;
-text-decoration:none;
+color:#437F00;
 }
 
 .search_type_active a, .search_type_active a:link, .search_type_active a:visited {
-color:#FFFFFF;
+color:#F27900;
 text-decoration:none;
 }
 
