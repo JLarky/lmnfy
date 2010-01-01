@@ -135,7 +135,7 @@ document.getElementById("query").focus();
 <p>Этот сайт поможет вам справиться с теми, кто ленится искать самостоятельно, ни в коем случае не как замена обычному поиску. Типичный пример от <a href="http://ru.wikiquote.org/wiki/%D0%94%D0%BE%D0%BA%D1%82%D0%BE%D1%80_%D0%A5%D0%B0%D1%83%D1%81#.D0.A1.D0.B5.D0.B7.D0.BE.D0.BD_1._.D0.AD.D0.BF.D0.B8.D0.B7.D0.BE.D0.B4_19._Kids_.28.D0.94.D0.B5.D1.82.D0.BA.D0.B8.29">доктора</a>:</p>
 <ul style="margin: auto; text-align: left; width: 510px;">
 <li>- Др. Хаус: Ты знаешь что такое «геморрой»?</li>
-<li>- Мальчк: Нет</li>
+<li>- Мальчик: Нет</li>
 <li>- Др. Хаус: Тогда <a href="http://lmnfy.com/?q=%D0%B3%D0%B5%D0%BC%D0%BE%D1%80%D1%80%D0%BE%D0%B9">http://lmnfy.com/?q=геморрой</a>!</li>
 </ul>
       <p>Или чтобы показать уникальные возможности поисковика nigma.ru:</p>
