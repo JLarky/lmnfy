@@ -15,23 +15,6 @@ margin : 0;
 vertical-align : middle;
 width : 100%;
 }
-.searchform-btn1111 {
--x-system-font:none;
-font-family:Arial,Verdana,sans-serif;
-font-size:12px;
-font-size-adjust:none;
-font-stretch:normal;
-font-style:normal;
-font-variant:normal;
-font-weight:normal;
-height:24px;
-line-height:normal;
-margin:0;
-padding:0 0.5em;
-text-align:center;
-vertical-align:top;
-}
-
 
 #instructions {
 margin-top : 35px;
@@ -145,16 +128,6 @@ border-bottom:3px solid #009933;
 table {
 border-collapse:collapse;
 border-style:none;
-}
-#types {
-color:#002040;
-font-family:Arial,Verdana,sans-serif;
-font-size:12px;
-font-size-adjust:none;
-font-style:normal;
-font-variant:normal;
-font-weight:normal;
-line-height:normal;
 }
 td {
 padding:0;
