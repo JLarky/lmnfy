@@ -5,8 +5,8 @@
   <title>Давай я поищу через nigma.ru для тебя (Let Me Nigma.ru For You)</title>
   <meta http-equiv="content-type" content="text/html;charset=utf-8" />
   <style type="text/css" media="all">
-    @import "/style.css";
     @import "/main_style.css";
+    @import "/style.css";
   </style>
   <script charset="utf-8" type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js"></script>
   <script src="/bundle.js" type='text/javascript'></script>
@@ -17,9 +17,9 @@
 <div style="height:40%;min-height:200px;"></div>
 <div style="margin:auto;width:100%;text-align:center;margin-top:-180px;">
 <div>
-<div class="logo">
+<div id="logo">
 <span>Давай я поищу через</span>
-<img id="logo" src="http://nigma.ru/themes/nigma/img/logos/logo_main.png" alt="nigma.ru" height="75px" width="281px" />
+<img src="http://nigma.ru/themes/nigma/img/logos/logo_main.png" alt="nigma.ru" title="nigma.ru" height="75" width="281" />
 <span>для тебя</span>
 </div>
 
