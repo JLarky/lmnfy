@@ -482,7 +482,7 @@ $(function(){
       var ui=$("#ui").val();
       if (!ui) ui=def_ui;
 
-      var loc = "http://www.nigma.ru/index.php?ui="+ui+"&t="+type+"&q=";
+      var loc = "http://www.nigma.ru/index.php?ui="+ui+"&t="+type+"&s=";
       var loc = loc + gentlyEncode(searchString); 
 
       if ($.getQueryString({ id: "debug" })) return;
